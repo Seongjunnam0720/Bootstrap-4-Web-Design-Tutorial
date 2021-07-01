@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <button id="button">Button</button>
+  <div id="box" style="width: 100px;
+  height: 100px; background: black;"></div>
+
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+      $('#button').click(function() {
+        var box = $("#box");
+        box.hide("slow", function() {
+          alert("박스를 숨겼습니다.");
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
+
+<!-- jQuery 이펙트4 콜백 -->

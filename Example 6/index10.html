@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <button id="text">text</button>
+  <button id="html">html</button>
+  <button id="val">val</button>
+  <p></p>
+  <input type="text" value="">
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#text").click(function(){
+        $("p").text("안녕하세요.");
+      });
+      $("#html").click(function(){
+        $("p").html("<b>안녕하세요.</b>");
+      });
+      $("#val").click(function(){
+        $("input").val("안녕하세요.");
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
+
+<!-- jQuery HTML3 text html val-->

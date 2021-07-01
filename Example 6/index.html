@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <button class="button">버튼</button>
+  <button id="test">숨겨질 버튼</button>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".button").click(function() {
+        $("#test").hide();
+      });
+    });
+  </script>
+
+</body>
+
+</html>
+<!-- jQuery 시작하기 -->
