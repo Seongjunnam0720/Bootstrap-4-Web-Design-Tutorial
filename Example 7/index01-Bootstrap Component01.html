@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>Hello, world!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style media="screen">
+    .alert {
+      display: none;
+    }
+  </style>
+
+</head>
+
+<body>
+  <button id="button" class="btn btn-primary btn-lg" type="button" name="button">Button</button>
+  <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert"
+      aria-hidden="true">&times;
+    </button>
+    Mission Complete!
+  </div>
+
+  <!-- <div class="alert alert-danger alert-dismissible fade show m-3" role="alert">
+    <h4 class="alert-heading">위험 경고 알림창</h4>
+    <button type="button"class="close" data-dismiss="alert"
+      aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    <hr>
+    <p class="m-0">현재 굉장히 위험한 상태입니다.</p>
+  </div> -->
+
+  <!-- <div class="alert alert-primary m-3" role="alert">
+    <h4 class="alert-heading">성공 알림창</h4>
+    <hr>
+    <p class="m-0">이것은 Primary 알림창입니다.</p>
+  </div> -->
+
+  <!-- <div class="alert alert-warning m-3" role="alert">
+    이것은 Warning 알림창입니다.
+  </div>
+  <div class="alert alert-success m-3" role="alert">
+    이것은 Success 알림창입니다.
+  </div> -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">
+      Title
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#alt" aria-ccontrols="alt" aria-expanded="false" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="alt">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">
+          Home <span class="sr-only">(current)</span>
+        </a>
+        <a class="nav-item nav-link" href="#">
+          Features
+        </a>
+        <a class="nav-item nav-link" href="#">
+          Pricing
+        </a>
+        <a class="nav-item nav-link" href="#">
+          Blog
+        </a>
+      </div>
+      <form class="form-inline">
+        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search" name="" value="">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+
+    </div>
+  </nav>
+  <div class="container my-2">
+    <div class="jumbotron">
+      <h1 class="display-3">Hello, World!</h1>
+      <p class="lead">This is a jumbotron.</p>
+      <hr class="my-4">
+      <p>
+        Hello, World! Hello, Jumbotron!
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#">Go</a>
+      </p>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-outline-primary btn-sm">Primary</button>
+  <button type="button" class="btn btn-outline-secondary btn-lg">Secondary</button>
+  <button type="button" class="btn btn-outline-success btn-block">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-link">Link</button>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function() {
+    $("#button").click(function() {
+      $(".alert").show();
+    });
+  });
+  </script>
+</body>
+
+</html>
+
+
+
+<!-- 부트스트랩 점보트론, 내비게이션 바, 버튼, 알림창 -->
